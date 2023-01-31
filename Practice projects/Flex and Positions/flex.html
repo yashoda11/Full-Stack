@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexes in CSS</title>
+    <style>
+        .container{
+            display:flex;
+            height: 500px;
+            border: 2px solid greenyellow;
+            flex-direction: column-reverse;
+            /* justify-content: space-around; */
+            /* align-items: stretch; */
+            /* flex-wrap: wrap-reverse; */
+            /* row-gap: 10px; */
+
+        }
+        #child{
+            background-color: yellow;
+            /* flex-grow:10; */
+            /* order: 3; */
+            /* align-self: center; */
+        }
+        .item{
+            border: 2px solid black;
+            height:60px;
+            width: 60px;
+            margin: 7px;
+            background-color: pink;
+            text-align: center;
+       }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <div class="item" >one</div>
+            <div class="item" id="child">two</div>
+            <div class="item" >three</div>
+            <div class="item">four</div>
+        </div>
+</body>
+</html>
