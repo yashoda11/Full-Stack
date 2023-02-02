@@ -7,14 +7,30 @@
 
 [**. Basic School time table**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Tables/table1.html)
 
-**. Embed youtube in table with proper title**
+[**. Embed youtube in table with proper title**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Tables/table2.html)
 
-### 2. Flex boxes
+### 2. Blog Creation
 
-### 3. Positions
+[**. Blog**](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/Practice%20projects/Blog)
 
-### 4. Grid
+### 3. Flex boxes
 
-### 5. Media Queries
+[**. Flex 1**](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/Practice%20projects/Flex%20and%20Positions/FLEX)
 
-### 6. Selectors
+[**. Flex 2**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Flex%20and%20Positions/flex.html)
+
+### 4. Positions
+
+[**. Positions**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Flex%20and%20Positions/position.html)
+
+### 5. Grid
+
+[**. Grid**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Media%20queries%20and%20Grid/grid.html)
+
+### 6. Media Queries
+
+[**. Grid**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Media%20queries%20and%20Grid/media.html)
+
+### 7. Selectors
+
+[**. Selectors**](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/Practice%20projects/Selectors)
