@@ -29,7 +29,7 @@
 
 ### 6. Media Queries
 
-[**. Grid**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Media%20queries%20and%20Grid/media.html)
+[**. Media Query**](https://github.com/yashoda11/FullStackJavaScript-2.0/blob/main/Practice%20projects/Media%20queries%20and%20Grid/media.html)
 
 ### 7. Selectors
 
