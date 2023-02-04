@@ -15,7 +15,7 @@
 
 ### 3. Sample Registration Form Web Page 
 
-[Registratation form](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/Practice%20projects/REGISTRATION%20-%20FORM)
+[**. Registratation form**](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/Practice%20projects/REGISTRATION%20-%20FORM)
 
 ### 4. Flex boxes
 
