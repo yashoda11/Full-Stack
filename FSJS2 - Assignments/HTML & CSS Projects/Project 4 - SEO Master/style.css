@@ -1,0 +1,59 @@
+body{
+    margin-top: 30px;
+    margin-left: 120px;
+    height: 80vh;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+} 
+.list{
+    display: flex;
+    gap: 100px;
+}
+.list-item{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 300;
+    list-style-type: none; 
+}
+.button-group{
+    position:absolute;
+    right:250px;
+    top: 20px;  
+}
+
+.nav-button{
+    border: 1px solid #3944F7;
+    background-color: #3944F7;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 25px;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.banner-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-text{ 
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 600;
+}
+span{
+    color: rgb(98, 98, 244);
+}
+.description{
+    font-family: Poppins;
+    font-weight: 200;
+    font-size: 18px;
+}
+.btn{
+    margin-top: 80px;
+}
