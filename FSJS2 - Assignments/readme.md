@@ -27,8 +27,8 @@
     . [Projects 6 files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%206%20Fashion%20Hub)
     
     
-
-
+# `Java Script Projects`
+[Java Script Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Java%20Script%20Files)
 
 
 
