@@ -1,7 +1,4 @@
 # `HTML and CSS Projects`
-
-[HTML and CSS Projects](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects)
-
 1. Projects - 1:
 
     . [Projects 1 files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/PROJECT%20-%201)
