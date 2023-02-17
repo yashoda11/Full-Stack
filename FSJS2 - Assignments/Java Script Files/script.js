@@ -261,3 +261,42 @@
 // let names = ['app', 'bank', 'cat', 'dog'];
 // console.log(names.unshift('hai'));
 // console.log(names);
+
+// let name = 'sai'
+// let array = name.split('');
+// console.log(array);
+
+// let names = ['sai', 'ram', 'hari'];
+// let uppernames = ['hai', 'baa'];
+// for(x of names){
+//     uppernames.push(x.toUpperCase());
+// }
+// console.log(uppernames);
+
+// for(let i=0; i<=5; i++){
+// if(i==4){
+//     continue;
+// }
+// console.log('I is: ',i);
+// }
+
+// function sum(){
+//     let num1=10;
+//     let num2=20;
+// console.log('add: ',num1+num2);
+// }
+// sum();
+
+// function sum(val1,val2){
+// console.log('add: ', val1+val2);
+// }
+// sum(10,15);
+// sum(2, 5)
+
+// function sum(val1,val2){
+//     let result = val1+val2;
+//     return result;
+// }
+// let add = sum(1, 3);
+// console.log(add);
+
