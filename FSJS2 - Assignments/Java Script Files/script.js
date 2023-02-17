@@ -300,3 +300,91 @@
 // let add = sum(1, 3);
 // console.log(add);
 
+// String
+
+// function URL(url,domain){
+//     let con = 'https://';
+//     let result = con + url + domain;
+//     return result;
+// }
+// let arrsitename = URL('anurag','.me');
+// console.log(arrsitename);
+
+// sum of the array more than 2 values
+
+// function sum(arr){
+//     let sum=0;
+//     for(let i=0; i<arr.length; i++){
+//         sum = sum + arr[i];
+//     }
+//     return sum;
+// }
+// let sumarry = [1, 2, 3, 4, 5];
+// let arrresult = sum(sumarry);
+// console.log(arrresult);
+
+// function sum(arr){
+//     let sum=0;
+//     for(let i=0; i<arr.length; i++){
+//         sum = sum+arr[i];
+//     }
+//     return sum;
+// }
+// let arrresult = sum(1, 2, 3);
+// console.log(arrresult);
+
+// function sum(){
+//     let sum = 0;
+//     for(let i=0; i<arguments.length; i++){
+//         sum=sum+arguments[i];
+//     }
+//     return sum;
+// }
+// console.log(sum(1,2,3, 10));
+
+// function sum(){
+//     console.log(arguments);
+//     let sum = 0;
+//     for(let i=0; i<arguments.length; i++){
+//         sum=sum+arguments[i];
+//     }
+//     return sum;
+// }
+// console.log(sum(1,2,3));
+
+// Arrow function
+
+// let jai = () =>{
+//     console.log('Namasthe');
+// }
+// jai();
+// let sai = (val1, val2) =>{
+//     console.log('hare', val1, val2);
+// }
+// // sai('krisna', 'Ram');
+// let sum = (val1,val2) =>{
+//     console.log('add: ', val1+val2);
+// }
+// sum(1,2);
+
+// let UserName = {
+//     fname: 'sai',
+//     lname: 'Ram',
+//     role:'admin',
+//     LoginCount: 25
+// };
+// console.log(UserName);
+// // console.log(UserName.LoginCount);
+// UserName.role='Mentor';
+// console.log(UserName);
+
+// for(let x in UserName){
+//     console.log(x);
+//     console.log(UserName[x]);
+
+// }
+
+
+
+
+
