@@ -165,7 +165,7 @@
 // console.log(now.getMinutes());
 // console.log(now.getSeconds());
 // MATH
-const PI = Math.PI;
+// const PI = Math.PI;
 // console.log(PI);
 // console.log(Math.round(PI));
 // console.log(Math.round(9.8));
@@ -199,4 +199,65 @@ const PI = Math.PI;
 //     console.log('J is: ',j);
 //     j++;
 // }
+// 3.for loop
+// for(i=0; i<=5;i++){
+//     console.log('I is: ',i);
+// }
 
+// for(i=0; i<=5;i++){
+//     console.log(`${i}+${i}=${i+i}`);
+// }
+
+// let names = ['ani', 'sai', 'ganesh', 'ram', 'hari'];
+// console.log(name);
+// console.log(name.length);
+// console.log(name[1]);
+// console.log(name[name.length-1]);
+// name[0]='hanu';
+// name.push('apple');
+// console.log(name);
+// console.log(names.slice(1,4));
+// names.splice(1,2,'app','bal');
+// console.log(names);
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+// let arr3 = [4, 5, 6];
+// console.log(arr1.concat(arr2,arr3));
+
+// let arr4 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// arr4.fill('ram',2,6);
+// console.log(arr4);
+// let number = [1,4, 6];
+// console.log(num.includes(3,6));
+// // console.log(number.indexOf(6));
+// let number = [1,4,6];
+// let number1 = 'say'
+// console.log(Array.isArray(number));
+// console.log(Array.isArray(number1));
+
+// let arr1 = [1, 2, 3, 4];
+// console.log(arr1.join(''));
+// console.log(arr1.join(' and '));
+
+// let arr1 = [1, 2, 3, 4];
+// let var1 = arr1.join(' hai ');
+// console.log(var1);
+// console.log(typeof var1);
+// console.log(arr1.lastIndexOf(4));
+
+// let maths = [1, 4, 9];
+// // console.log(maths.map(Math.sqrt));
+// console.log(maths.pop());
+// console.log(maths);
+// console.log(maths.reverse());
+// console.log(maths.shift());
+// console.log(maths);
+
+// let names = ['boy', 'cat', 'app'];
+// console.log(names.sort());
+// console.log(names.reverse(names.sort()));
+
+// let names = ['app', 'bank', 'cat', 'dog'];
+// console.log(names.unshift('hai'));
+// console.log(names);
