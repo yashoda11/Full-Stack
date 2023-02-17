@@ -381,10 +381,46 @@
 // for(let x in UserName){
 //     console.log(x);
 //     console.log(UserName[x]);
-
 // }
 
+// const object ={
+//     rocket:'R',
+//     Home:'H'
+// };
+// for(let x in object){
+//     console.log(x);
+//     console.log(object[x]);
+// }
 
+// const object1 = {
+//     Toy: 'Teddy',
+//     Game:'Candy',
+//     Sweet:{
+//         name:'Gulab Jam'
+//     }
+// };
+// object1.Game='Temple Run',
+// object1.Movie='Karthikeya - 2'
+// object1.year=2000
+// for(x in object1){
+// console.log(x);
+// console.log(object1[x]);
+// }
 
+// const obj2 = new Object();
+// obj2.name = 'sai';
+// obj2.no = 9000000;
+// console.log(obj2);
+
+// const powers={
+//     fly:true,
+//     PI: Math.round(3.14)
+// };
+// // console.log(powers);
+// const obj3 = Object.create(powers)
+// console.log(obj3);
+// console.log(obj3.fly);
+// console.log(obj3.PI);
+// console.log(Object.getPrototypeOf(obj3));
 
 
