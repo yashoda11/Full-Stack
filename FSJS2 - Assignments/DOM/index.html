@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - JAVASCRIPT</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p class="FSS" id="FSS2"><span>Full</span> Stack Developer</p>
+    <p class="FS"><span>Full</span> Stack Developer - Class Example</p>
+    <p id="FS2"><span>Full</span> Stack Developer - ID Example</p>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+    </ul>
+    <ul>
+        <li class="tech">JavaScript</li>
+        <li class="tech">NodeJS</li>
+        <li class="tech">ReactJS</li>
+    </ul>
+
+    <Script>
+        // console.log(document);
+        // console.log(window.document);
+        // console.log(window.documentElement);
+        // console.log(document.documentElement);
+        // console.log(document.head);
+        // console.log(document.body);
+        // console.log(document.body.firstChild);
+        // console.log(document.body.firstElementChild);
+        // console.log(document.body.lastElementChild);
+        // let val = document.getElementById("FS2")
+        // console.log(val.innerText);
+        // console.log(val.innerHTML);
+        // let val = document.getElementsByClassName("tech")
+        // console.log(val);
+        // console.log(val[0].innerText);
+        // console.log(val[1].innerText);
+        // val[1].innerHTML = "Sai"
+        // // val[2].innerText = "<h2>Hello World</h2>"
+        // val[2].innerHTML = "<h2>Hello World</h2>"
+
+let h = document.querySelector("h1").innerText
+console.log(h);
+let clas = document.querySelector(".FS").innerText
+console.log(clas)
+let idd = document.querySelector("#FS2").innerText
+console.log(idd)
+    </Script>
+</body>
+</html>
