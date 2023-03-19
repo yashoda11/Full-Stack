@@ -8,9 +8,10 @@
 </head>
 <body>
     <h1>Hello World</h1>
-    <p class="FSS" id="FSS2"><span>Full</span> Stack Developer</p>
     <p class="FS"><span>Full</span> Stack Developer - Class Example</p>
     <p id="FS2"><span>Full</span> Stack Developer - ID Example</p>
+    <p class="FSS" id="FSS2"><span>Full</span> Stack Developer</p>
+    
     <ul>
         <li>One</li>
         <li>Two</li>
@@ -20,6 +21,9 @@
         <li class="tech">NodeJS</li>
         <li class="tech">ReactJS</li>
     </ul>
+    <h2>Hello JavaScript</h2>
+    <p id="js"></p>
+
 
     <Script>
         // console.log(document);
@@ -42,12 +46,34 @@
         // // val[2].innerText = "<h2>Hello World</h2>"
         // val[2].innerHTML = "<h2>Hello World</h2>"
 
-let h = document.querySelector("h1").innerText
-console.log(h);
-let clas = document.querySelector(".FS").innerText
-console.log(clas)
-let idd = document.querySelector("#FS2").innerText
-console.log(idd)
+// let h = document.querySelector("h1").innerText
+// console.log(h);
+// let clas = document.querySelector(".FS").innerText
+// console.log(clas)
+// let idd = document.querySelector("#FS2").innerText
+// console.log(idd)
+// let value = document.querySelector("#FSS2").style.backgroundColor = "red"
+// console.log(value);
+// alert("Hello World")
+// setTimeout(() => {
+//     alert("Hello Anurag")
+// },2000);
+
+// let val = confirm("Are You Sure")
+//  if (val){
+//     document.getElementById("js").innerHTML="They are Pressed Ok"
+//  }
+//  else{
+//     document.getElementById("js").innerHTML='Ther are pressed cancel'
+//  }
+
+ let val1 = prompt("Slove this for 20-10");
+ if(val1==15){
+ document.getElementById("js").innerText="SUCCESS"
+ }
+ else{
+    document.getElementById("js").innerText="ATTEMPT FAIL"
+ }
     </Script>
 </body>
 </html>
