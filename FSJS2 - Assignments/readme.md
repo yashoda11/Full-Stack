@@ -6,6 +6,8 @@
 
 - [Media (Audio and Video) Tags in HTML](https://yashoda.hashnode.dev/audio-and-video-tags-in-html)
 
+- [Flex Boxes in HTML](https://yashoda.hashnode.dev/flex-boxes-in-css)
+
 
 # `HTML and CSS Projects`
 
