@@ -15,3 +15,15 @@
 4. Flex Boxes in CSS
 
     - [Flex Boxes in CSS](https://yashoda.hashnode.dev/flex-boxes-in-css)
+
+5. The Position Property in CSS
+
+    - [The Positioning in CSS](https://yashoda.hashnode.dev/the-position-property-in-css)
+    
+6. CSS Box Model
+
+    - [Box Models in CSS](https://yashoda.hashnode.dev/the-css-box-model)
+    
+7. CSS Media Queries
+
+    - [Media Queries in CSS](https://yashoda.hashnode.dev/css-media-queries)
