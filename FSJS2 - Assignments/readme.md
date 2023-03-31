@@ -8,6 +8,12 @@
 
 - [Flex Boxes in CSS](https://yashoda.hashnode.dev/flex-boxes-in-css)
 
+- [The Positioning in CSS](https://yashoda.hashnode.dev/the-position-property-in-css)
+
+- [Box Models in CSS](https://yashoda.hashnode.dev/the-css-box-model)
+
+- [Media Queries in CSS](https://yashoda.hashnode.dev/css-media-queries)
+
 
 # `HTML and CSS Projects`
 
