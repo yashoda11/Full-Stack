@@ -1,6 +1,6 @@
 # `ARTICLES`
 
-- [Introduction to Web Server and HTML Elaments](https://yashoda.hashnode.dev/introduction-to-web-server-and-html)
+- [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)
 
 - [Input (Form) Elements in HTML](https://yashoda.hashnode.dev/input-form-elements-in-html)
 
