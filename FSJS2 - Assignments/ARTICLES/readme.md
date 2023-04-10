@@ -2,7 +2,7 @@
 
 1. Web Server:
 
-    - [Introduction to Web Server and HTML Elements](https://yashoda.hashnode.dev/introduction-to-web-server)  
+    - [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)  
     
 2. HTML Elements:
 
