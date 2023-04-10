@@ -2,7 +2,7 @@
 
 1. Web Server and HTML Elements:
 
-    - [Introduction to Web Server and HTML Elements](https://yashoda.hashnode.dev/introduction-to-web-server-and-html)
+    - [Introduction to Web Server and HTML Elements](https://yashoda.hashnode.dev/introduction-to-web-server)  
 
  2. Input (Form) Elements in HTML:
 
