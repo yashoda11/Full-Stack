@@ -4,6 +4,8 @@
 
 - [Input (Form) Elements in HTML](https://yashoda.hashnode.dev/input-form-elements-in-html)
 
+- [HTML Elements]()
+
 - [Media (Audio and Video) Tags in HTML](https://yashoda.hashnode.dev/audio-and-video-tags-in-html)
 
 - [Flex Boxes in CSS](https://yashoda.hashnode.dev/flex-boxes-in-css)
@@ -13,6 +15,8 @@
 - [Box Models in CSS](https://yashoda.hashnode.dev/the-css-box-model)
 
 - [Media Queries in CSS](https://yashoda.hashnode.dev/css-media-queries)
+
+- [Grid Layout in CSS](https://yashoda.hashnode.dev/css-grid-layout)
 
 
 # `HTML and CSS Projects`
