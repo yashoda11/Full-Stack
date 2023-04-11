@@ -1,6 +1,6 @@
 # `ARTICLES`
 
-1. Web Server:
+1. Web Servers:
 
     - [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)  
     
@@ -34,4 +34,4 @@
 
 9. CSS Grid Layout
 
-    - [Grid Layout in CSS]()
+    - [Grid Layout in CSS](https://yashoda.hashnode.dev/css-grid-layout)
