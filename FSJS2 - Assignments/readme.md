@@ -2,9 +2,9 @@
 
 - [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)
 
-- [Input (Form) Elements in HTML](https://yashoda.hashnode.dev/input-form-elements-in-html)
+- [HTML Elements](https://yashoda.hashnode.dev/html-elements)
 
-- [HTML Elements]()
+- [Input (Form) Elements in HTML](https://yashoda.hashnode.dev/input-form-elements-in-html)
 
 - [Media (Audio and Video) Tags in HTML](https://yashoda.hashnode.dev/audio-and-video-tags-in-html)
 
