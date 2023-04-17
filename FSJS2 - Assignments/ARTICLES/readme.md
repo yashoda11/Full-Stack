@@ -1,18 +1,18 @@
 # `ARTICLES`
 
-1. Web Servers:
+1. Web Servers
 
     - [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)  
     
-2. HTML Elements:
+2. HTML Elements
 
     - [HTML Elements](https://yashoda.hashnode.dev/html-elements)
 
-3. Input (Form) Elements in HTML:
+3. Input (Form) Elements in HTML
 
     - [Input (Form) Elements in HTML](https://yashoda.hashnode.dev/input-form-elements-in-html)
 
-4. Audio and Video tags in HTML: 
+4. Audio and Video tags in HTML
 
     - [Media (Audio and Video) tags in HTML](https://yashoda.hashnode.dev/audio-and-video-tags-in-html)
     
