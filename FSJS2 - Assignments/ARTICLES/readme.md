@@ -6,7 +6,7 @@
     
 2. HTML Elements:
 
-    - [HTML elements]()
+    - [HTML elements](https://yashoda.hashnode.dev/html-elements)
 
 3. Input (Form) Elements in HTML:
 
