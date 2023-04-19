@@ -46,6 +46,12 @@
 6. Projects - 6 - FASHION HUB:
 
     - [Projects 6 files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%206%20Fashion%20Hub)
+    
+ 7. Projects - 7 - Credit Card Landing Page
+ 
+    - [Project 7 Code Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%207%20-%20Credit%20Card%20Landing%20Page)
+ 
+    
 
 # `Java Script Projects`
 [Java Script Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Java%20Script%20Files)
