@@ -25,6 +25,10 @@
 // mult(56, 14);
 // mult(26, 13);
 // mult(66, 22);
+//mult(12,12);
+//mult(111,11);
+//mult(10,10);
+//mult(9,9)
 
 
 // function div(val1, val2){
