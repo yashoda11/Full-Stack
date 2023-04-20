@@ -14,3 +14,4 @@
     6. Inside selector
     7. Direct Child
     8. Sibling ~ or + 
+    
