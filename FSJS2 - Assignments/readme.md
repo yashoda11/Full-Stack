@@ -1,5 +1,7 @@
 # `ARTICLES`
 
+## [Articles for HTML and CSS Topics ](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/ARTICLES)
+
 - [Introduction to Web Server](https://yashoda.hashnode.dev/introduction-to-web-server)
 
 - [HTML Elements](https://yashoda.hashnode.dev/html-elements)
