@@ -18,7 +18,7 @@ _Italic_
 
 **_Bold & Italic_**
 
-~~9999~~  Rs.10000
+~~9999~~  Rs.10000    ~~
 
 LINK:
 
@@ -28,7 +28,7 @@ LINK:
 
 IMAGE:
 
-![Alter Text](./output.png)
+![Alter Text](https://images.pexels.com/photos/12215102/pexels-photo-12215102.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load)
 
 TABLES:
 
