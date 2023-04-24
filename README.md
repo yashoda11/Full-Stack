@@ -8,14 +8,11 @@
 
 2. Creation of Web pages
 
-### **Languages used**
+### **Applcations used are**
 
-  **- HTML**
-  
-  **- CSS**
-
-  **- TAILWIND**
-  
-  **- Java Script**
-  
-  
+- Frontend Applications are:
+   
+   1. HTML
+   2. CSS
+   3. Tailwind
+   4. Java Script
