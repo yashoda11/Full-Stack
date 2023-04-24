@@ -4,12 +4,14 @@
 
 ### **Table of Conetents:**
 
-**1. Articles on HTML and CSS Elements**
+1. Articles on HTML and CSS Elements
 
-**2. Developing Projects using**
+2. Creation of Web pages
 
   **- HTML**
   
   **- CSS**
 
   **- TAILWIND**
+  
+  
