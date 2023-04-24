@@ -8,10 +8,14 @@
 
 2. Creation of Web pages
 
+### **Languages used**
+
   **- HTML**
   
   **- CSS**
 
   **- TAILWIND**
+  
+  **- Java Script**
   
   
