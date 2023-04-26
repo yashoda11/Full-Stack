@@ -8,7 +8,9 @@
 
 2. Creation of Web pages
 
-### **Applcations used are**
+3. Java Script
+
+### **Applications used here are**
 
 - Frontend Applications are:
    
