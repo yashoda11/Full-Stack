@@ -14,7 +14,7 @@
 
 - [The Positioning in CSS](https://yashoda.hashnode.dev/the-position-property-in-css)
 
-- [Box Models in CSS](https://yashoda.hashnode.dev/the-css-box-model)
+- [Box Models (Padding, Margin and Border) in CSS](https://yashoda.hashnode.dev/the-css-box-model)
 
 - [Media Queries in CSS](https://yashoda.hashnode.dev/css-media-queries)
 
