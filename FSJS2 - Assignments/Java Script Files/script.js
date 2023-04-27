@@ -423,4 +423,50 @@
 // console.log(obj3.PI);
 // console.log(Object.getPrototypeOf(obj3));
 
+//Videos Examples
+
+//Declaring Variables:
+ 
+let fullName = "Yashoda Viyyapu";    // String Data Type
+let a;                               //Undefined Data Type
+//Boolean Data Type
+//Null Data Type
+
+console.log("The Full Name of  " + fullName + " is a " + typeof fullName + " Data Type");
+console.log("The Value of a " + "is " + typeof a + " Data Type");
+
+//Declaring Varibales
+
+let firstName = "Yashoda";
+let lastName = "Viyyapu";
+let maritalStatus = "Married";
+let country = "India";
+let age = "25";
+
+//Display the variales in "interploation method":
+
+console.log(`The User First Name is ${firstName}
+                      Last Name is ${lastName}
+                      Marital Status is ${maritalStatus}
+                      Country is ${country}
+                      Age is ${age} `);
+//or
+console.log(` I am ${firstName} ${lastName}.
+I am ${maritalStatus}.
+My Age is ${age} and lives in ${country}.
+ `);
+
+////Declaring a varibale and assign a string value to it:
+
+let courseName = ["full stack java script course"];
+let upperCourseName = [];    // Empty Array
+
+for (const capitalletter of courseName)  {
+    upperCourseName.push(capitalletter.toUpperCase());
+}
+console.log("The Capital Letters of Course Name Full Stack Java Script is: " + upperCourseName);
+
+
+
+
 
