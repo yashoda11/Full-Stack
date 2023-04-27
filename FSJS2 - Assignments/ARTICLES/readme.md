@@ -26,7 +26,7 @@
     
 7. CSS Box Model
 
-    - [Box Models in CSS](https://yashoda.hashnode.dev/the-css-box-model)
+    - [Box Models (Padding, Margin and Borders) in CSS](https://yashoda.hashnode.dev/the-css-box-model)
     
 8. CSS Media Queries
 
