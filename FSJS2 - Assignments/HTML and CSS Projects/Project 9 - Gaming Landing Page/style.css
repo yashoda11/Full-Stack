@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 1440px;
+    color: #ffffff;
+}
+.Image{
+    background: url("./Assets/Images/futuristic-bg.png");
+    background-size: 1440px 600px;
+    /* height: 1000px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding: 0px 80px;
+}
+.List-Items{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.List-Items li{
+    list-style-type: none;
+}
+.SignUp{
+    background-color: #da5b24;
+    /* padding: 10px 25px; */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 22px;
+    border: 1px solid #da5b24;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.btn{
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+.btn1{
+    background-color: #da5b24;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border: 2px solid #da5b24; 
+}
+.btn2{
+    font-size: 16px;
+    padding: 12px 30px;
+    border: 1px solid #fff; 
+    background-color: black;
+    color: white
+}
+.header-right{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    gap: 170px;
+    /* justify-content: center; */
+}
+.dash{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 18px;
+}
+.Games-Heading{
+    color: black; 
+    text-align: center;
+    margin-left: 110px;
+    margin-right: 80px; 
+    font-size: 53px; 
+    margin-top: 150px;
+}
+.Gaming-Images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+.Gaming-Images-btn{
+    position: absolute; 
+    bottom: 35px; 
+    font-size: 15px; 
+    left: 180px;
+    background-color: #da5b24; 
+    padding: 10px 15px; 
+    border: 1px solid #da5b24;
+    color: #fff;
+    font-size: 15px;
+}
+.Game-Section{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin: 220px 100px;
+    gap: 110px;
+}
+.Game-Section-Right{
+    margin-top: 25px;
+}
+.Game-Section-Left img{
+    width: 510px;
+    height: 400px;
+}
+section{
+color: black;
+display: flex;
+flex-direction: column;
+gap: 80px;
+}
+.Section-Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 650px;
+    font-size: 45px;
+    margin-top: -20px;
+
+}
+.Arrow-Images{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px 10px;
+}
+.Left-Arrow{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(248, 219, 219, 0.906);
+}
+.Right-Arrow{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(245, 117, 6);
+
+}
+.Left-Arrow img{
+    margin-bottom: 11px;
+    margin-left: 9px;
+}
+.Right-Arrow img{
+    margin-bottom: 11px;
+    margin-left: 11px;
+}
+.Section-Bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+    margin-right: 10px;
+    gap: 50px 0px;
+}
+.Game1, .Game2, .Game3, .Game4{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.Game1-Right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 350px; */
+    margin-top: 20px;
+    line-height: 35px;
+}
+.Gaming-Button{
+    background-color: #da5b24; 
+    padding: 12px 25px; 
+    border: 1px solid #da5b24;
+    color: #fff;
+    font-size: 18px;
+}
+summary{
+    color: #fff;
+    background-color: black;
+    margin-top: 120px;
+    font-size: 55px;
+    padding-bottom: 100px;
+}
+article{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.art-img img{
+    width: 1440px;
+    height: 500px;
+    filter: brightness(30%);
+
+}
+article h1{
+    font-size: 50px;
+    padding-top: 90px;
+}
+article p{
+    font-size: 22px;
+    color: rgb(155, 150, 150);
+}
+article button{
+    background-color: #da5b24; 
+    padding: 15px 30px; 
+    border: 1px solid #da5b24;
+    color: #fff;
+    font-size: 18px;
+    /* margin-bottom: 100px; */
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    margin-top: -120px;
+    font-size: 30px;
+    justify-content: center;
+    gap: 80px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.hr{
+    background-color: #000;
+}
