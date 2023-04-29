@@ -55,7 +55,15 @@
     
 8. Project 8 - Hosting Site Landing Page
  
-    - [Project 8 Coed Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%208%20-%20Hosting%20Site%20Landing%20Page)
+    - [Project 8 Code Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%208%20-%20Hosting%20Site%20Landing%20Page)
+    
+9. Project 9 - Gaming Landing Page
+
+    - [Project 9 Code Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%209%20-%20Gaming%20Landing%20Page)
+    
+10. Project 10 - Real Estate Landing Page
+
+    - [Project 10 Code Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/Project%2010%20-%20Real%20Estate%20Landing%20Page)
  
     
 
