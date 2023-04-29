@@ -466,6 +466,32 @@ for (const capitalletter of courseName)  {
 }
 console.log("The Capital Letters of Course Name Full Stack Java Script is: " + upperCourseName);
 
+// 01. Create a variable.js file and declare variables and assign string, boolean, undefined and null data types, Display all the value with their data type.
+
+//Declaring Variables:
+ 
+let fullName = "Yashoda Viyyapu";    // String Data Type
+let x = true;                        //Boolean Data Type
+let a;                               //Undefined Data Type
+let number = null;                   //Null Data Type
+
+//All the Values with their Data Types.
+
+console.log("The Full Name is " + fullName + " and it's data type is "  + typeof fullName + " Data Type");
+console.log("The Value of x is " + x + " and it's data type is "  + typeof x + " Data Type");
+console.log("The Value of a is " + a + " and it's data type is "  + typeof a + " Data Type");
+console.log("The Value of number is " + number + " and it's data type is " + typeof number + " Data Type");
+
+//04. Declare a varibale and assign string value to it and check if the string contains a word Script using includes() method.
+
+var courseName = "Full Stack Java Script";
+var isCourseNameIncludes = courseName.includes("Script");
+console.log("The Course Name " + courseName + " contains the word Script. Therefore its value is " + isCourseNameIncludes);
+
+
+
+
+
 
 
 
