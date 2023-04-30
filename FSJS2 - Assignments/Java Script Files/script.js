@@ -488,6 +488,30 @@ var courseName = "Full Stack Java Script";
 var isCourseNameIncludes = courseName.includes("Script");
 console.log("The Course Name " + courseName + " contains the word Script. Therefore its value is " + isCourseNameIncludes);
 
+//05. Declare a varibale and assign string value to it and then split it into an array using split() method
+
+
+//(1). Assigning String value to variable
+let cName = "JavaScript";
+
+let arrayOfName = cName.split('');               //Split it into an array using split() Method.
+console.log(arrayOfName);
+
+//(2). Assigning Multiple String values to variable
+let rainbowColors = "Violet Indigo Blue Green Yellow Orange Red";
+
+let arrayOfColors = rainbowColors.split(' ');       //Split it into an array using split() Method.
+console.log(arrayOfColors);
+
+//06. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+let socialPlatform = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
+
+let arrayOfSocialPlatform = socialPlatform.split(',');
+console.log(arrayOfSocialPlatform);
+
+
+
 
 
 
