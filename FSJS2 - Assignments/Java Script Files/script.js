@@ -674,6 +674,162 @@ if (len1 == len1+len2) {
     console.log(`The comparision is False. Hence executes a Fasly Statement.`);
 }
 
+// 12. Create a human readable time format using the Date time object
+//     - YYYY-MM-DD HH:mm
+//     - DD-MM-YYYY HH:mm
+//     - DD/MM/YYYY HH:mm
+
+
+// 1. YYYY-MM-DD HH:mm Format:
+
+const date = new Date();
+
+// Function to convert single digit input to two digits
+const formatData = (input) => {
+if (input > 9) {
+	return input;
+} else return `0${input}`;
+};
+
+// Function to convert 24 Hour to 12 Hour clock
+const formatHour = (input) => {
+if (input > 12) {
+	return input - 12;
+}
+return input;
+};
+
+// Data about date
+const format = {
+dd: formatData(date.getDate()),
+mm: formatData(date.getMonth() + 1),
+yyyy: date.getFullYear(),
+HH: formatData(date.getHours()),
+hh: formatData(formatHour(date.getHours())),
+MM: formatData(date.getMinutes()),
+SS: formatData(date.getSeconds()),
+};
+
+const format24Hour = ({ dd, mm, yyyy, HH, MM, SS }) => {
+console.log(`${yyyy}-${mm}-${dd} ${HH}:${MM}:${SS}`);
+};
+const format12Hour = ({ dd, mm, yyyy, hh, MM, SS }) => {
+console.log(`${yyyy}-${mm}-${dd} ${hh}:${MM}:${SS}`);
+};
+
+// Time in 24 Hour format
+format24Hour(format);
+// Time in 12 Hour format
+format12Hour(format);
+// 12. Create a human readable time format using the Date time object
+//     - YYYY-MM-DD HH:mm
+//     - DD-MM-YYYY HH:mm
+//     - DD/MM/YYYY HH:mm
+
+
+// 2. DD-MM-YYYY HH:mm Format:
+
+const date = new Date();
+
+// Function to convert single digit input to two digits
+const formatData = (input) => {
+if (input > 9) {
+	return input;
+} else return `0${input}`;
+};
+
+// Function to convert 24 Hour to 12 Hour clock
+const formatHour = (input) => {
+if (input > 12) {
+	return input - 12;
+}
+return input;
+};
+
+// Data about date
+const format = {
+dd: formatData(date.getDate()),
+mm: formatData(date.getMonth() + 1),
+yyyy: date.getFullYear(),
+HH: formatData(date.getHours()),
+hh: formatData(formatHour(date.getHours())),
+MM: formatData(date.getMinutes()),
+SS: formatData(date.getSeconds()),
+};
+
+
+const format24Hour = ({ dd, mm, yyyy, HH, MM, SS }) => {
+console.log(`${dd}-${mm}-${yyyy} ${HH}:${MM}:${SS}`);
+};
+const format12Hour = ({ dd, mm, yyyy, hh, MM, SS }) => {
+console.log(`${dd}-${mm}-${yyyy} ${hh}:${MM}:${SS}`);
+};
+
+// Time in 24 Hour format
+format24Hour(format);
+// Time in 12 Hour format
+format12Hour(format);
+// 12. Create a human readable time format using the Date time object
+//     - YYYY-MM-DD HH:mm
+//     - DD-MM-YYYY HH:mm
+//     - DD/MM/YYYY HH:mm
+
+// 3. DD/MM/YYYY HH:mm Format:
+
+const date = new Date();
+
+// Function to convert single digit input to two digits
+const formatData = (input) => {
+if (input > 9) {
+	return input;
+} else return `0${input}`;
+};
+
+// Function to convert 24 Hour to 12 Hour clock
+const formatHour = (input) => {
+if (input > 12) {
+	return input - 12;
+}
+return input;
+};
+
+// Data about date
+const format = {
+dd: formatData(date.getDate()),
+mm: formatData(date.getMonth() + 1),
+yyyy: date.getFullYear(),
+HH: formatData(date.getHours()),
+hh: formatData(formatHour(date.getHours())),
+MM: formatData(date.getMinutes()),
+SS: formatData(date.getSeconds()),
+};
+
+const format24Hour = ({ dd, mm, yyyy, HH, MM, SS }) => {
+console.log(`${dd}/${mm}/${yyyy} ${HH}:${MM}:${SS}`);
+};
+const format12Hour = ({ dd, mm, yyyy, hh, MM, SS }) => {
+console.log(`${dd}/${mm}/${yyyy} ${hh}:${MM}:${SS}`);
+};
+
+// Time in 24 Hour format
+format24Hour(format);
+// Time in 12 Hour format
+format12Hour(format);
+//13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+
+let age = prompt("Enter your age");
+if (age >= 18) {
+    document.getElementById("js").innerText = "You are old enough to drive";
+    document.getElementById("js").style.color = "Green";
+
+} else {
+    document.getElementById("js").innerText = "You are young. Hence, you are not allowed to to drive";
+    document.getElementById("js").style.color = "Red";
+
+}
+document.getElementById("js").style.fontSize = "40px";
+document.getElementById("js").style.fontStyle = "italic";
+
 
 
 
