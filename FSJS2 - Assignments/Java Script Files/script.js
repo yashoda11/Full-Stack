@@ -510,6 +510,169 @@ let socialPlatform = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
 let arrayOfSocialPlatform = socialPlatform.split(',');
 console.log(arrayOfSocialPlatform);
 
+//07. Declare an array containing the multiple values and use lastIndexOf to determine the position of the first and last occurrence of a word "pw skills".
+
+
+let array = ['JavaScript','HTML','pw skills','CSS','Python','R', 'pw skills'];
+
+
+let arr1 = array.lastIndexOf('pw skills');
+console.log(arr1);
+
+let arr2 = array.lastIndexOf('pw skills', 3);
+console.log(arr2);
+
+//08. Demonstrate the use of trim() to remove any trailing whitespace at the beginning and the end of a string.
+
+let string = " Hello Java Script ";
+
+let afterTrimString = string.trim();  //With trim()
+console.log(afterTrimString);
+
+console.log(string);                  //Without trim()
+
+// 09. Boolean value is either true or false.
+//     - Write three JavaScript statement example which provide truthy value.
+//     - Write three JavaScript statement example which provide falsy value.
+
+
+// The folowing values are Truthy Values:
+// '0' (a string containing a single zero)
+// 'false' (a string containing the text “false”)
+// [] (an empty array)
+// {} (an empty object)
+// function(){} (an “empty” function)
+
+if('0'){
+    console.log("value is truthy value");
+}
+else{
+    console.log('value is falsy value');
+}
+if ('false') {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if ('[]') {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if (function(){}) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if ({}) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+
+// The following values are Falsy Values:
+// 0 (zero)
+// -0 (minus zero)
+// 0n (BigInt zero)
+// '', "", `` (empty string)
+// null
+// undefined
+// NaN
+
+if(0){
+    console.log("value is truthy value");
+}
+else{
+    console.log('value is falsy value');
+}
+if (null) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if ('') {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if (NaN) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if (``) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+if (undefined) {
+    console.log("value is truthy value");
+} else {
+    console.log('value is falsy value');
+}
+
+// 10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+//     - 4 > 3
+//     - 4 >= 3
+//     - 4 < 3
+//     - 4 <= 3
+//     - 4 == 4
+//     - 4 === 4
+//     - 4 != 4
+//     - 4 !== 4
+//     - 4 != '4'
+//     - 4 == '4'
+//     - 4 === '4'
+//     - Find the length of python and jargon and make a falsy comparison statement.
+
+// 1. 4 > 3 = True
+    console.log(4 > 3);
+
+// 2. 4 >= 3 = True
+    console.log(4 >= 3);
+
+// 3. 4 < 3 = False
+    console.log(4 < 3);    
+
+// 4. 4 <= 3 = False
+    console.log(4 <= 3);
+
+// 5. 4 == 4 = True
+    console.log(4 == 4);
+
+// 6. 4 === 4 --> True
+    console.log(4 === 4);
+
+// 7. 4 != 4 --> False
+        console.log(4 != 4);
+
+// 8. 4 !== 4 --> Fasle
+    console.log( 4 !== 4 );
+    
+// 9. 4 != '4' -->False
+    console.log(4 != '4');
+
+// 10. 4 == '4'  -->True
+    console.log(4 == '4');
+
+// 11. 4 === '4'  -->False
+console.log(4 === '4');
+
+// 12. Find the length of python and jargon and make a falsy comparison statement.
+
+let str1 = "python";
+let str2 = "jargon";
+const len1 = str1.length;
+const len2 = str2.length;
+console.log(`
+The Length of python is: ${len1}
+The Length of jargon is: ${len2}`
+);
+if (len1 == len1+len2) {
+    console.log(`The length of the both strings ${str1} and ${str2} are same which is ${len1}`);
+} else {
+    console.log(`The comparision is False. Hence executes a Fasly Statement.`);
+}
 
 
 
