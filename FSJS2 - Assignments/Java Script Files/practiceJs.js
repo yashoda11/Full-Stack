@@ -15,3 +15,31 @@ var temp = 20;
 var result = temp<20;
 console.log(result);
 
+//Logical Operators
+
+let email = true;
+let facebook = false;
+let google = true;
+if(email||facebook||google){
+    console.log("Login Success");
+}
+else{
+    console.log("Login Fail");
+}
+
+if(email&&facebook&&google){
+    console.log("Login Success");
+}
+else{
+    console.log("Login Fail");
+}
+
+//Ternary Operators
+//condition ? true : false;
+
+let authenticated = true;
+let authenticated1 = false;
+
+authenticated?console.log("Success"):console.log("Fail");
+authenticated1?console.log("Success"):console.log("Fail");
+
