@@ -43,3 +43,89 @@ let authenticated1 = false;
 authenticated?console.log("Success"):console.log("Fail");
 authenticated1?console.log("Success"):console.log("Fail");
 
+
+//Switch Case
+// let user = "sub-admin";
+// switch (user) {
+//     case "admin":
+//         console.log("Full acces");
+//         break;
+//     case "sub-admin":
+//         console.log("Full acces fot course");
+//         break;
+//     default:
+//         console.log("Trail User");
+//         break;
+// }
+
+// FAlsy Values
+
+let user = null;
+if (user) {
+console.log("Condition is true");
+}
+else{
+    console.log("Conditio is False");
+}
+let user1 = "null";
+if (user1) {
+console.log("Condition is true");
+}
+else{
+    console.log("Conditio is False");
+}
+let user2 = "";
+if (user2) {
+console.log("Condition is true");
+}
+else{
+    console.log("Conditio is False");
+}
+
+console.log(2+2);
+console.log(2+"2");
+console.log(2+parseInt("2"));
+console.log("2"+"2");
+
+function sayHello(name) {
+    console.log("Hello ,hitesh");
+    console.log("Hello,",name);
+}
+sayHello();
+
+function sayHello(name) {
+    console.log("Hello there, hitesh");
+    console.log(`Hello There ${name}. How are you???`);
+}
+sayHello("hitesh");
+sayHello("sammy");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
