@@ -1163,6 +1163,35 @@ else{
     document.getElementById("month").style.color = "#eb4d4b";
 }
 
+// 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
 
 
+// program to include JS file into another JS file
+let countryNames = ["India", "Nepal", "Poland", "Bhutan", "America", "Russia", "Italy", "Japan", "Jermany", "Alaska", "Grrenland", "Indonesia", "Panama", "Irland", "Egypt", "China", "Portugal", "Oman", "Thailand", "Peru."];
 
+// exporting variables and function
+export { countryNames };
+// 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
+
+
+// import the variables from countries.js
+import { countryNames } from './countries.js';
+// import the variables from web_techs.js
+import { webTechnologyNames } from './web_techs.js';
+
+// Print list of contry Names
+document.getElementById("country2").innerText = countryNames.join(" , ");
+document.getElementById("country2").style.color = "#6F1E51";
+
+// Print list of Web Technology Names
+document.getElementById("web2").innerText = webTechnologyNames.join(' , ');
+document.getElementById("web2").style.color = "#6F1E51";
+
+// 19. Create a countries.js file and store the countries name into this file, create a file web_techs.js and store the popular web technology names into this file. Access both file in a third file named main.js
+
+// program to include JS file into another JS file
+
+let webTechnologyNames = ["HTML", "CSS", "JavaScript", "ReactJS", "MangoDB", "PHP", "Python", "Java", "ExpressJS", "NodeJS."];
+
+// exporting variables and function
+export { webTechnologyNames };
