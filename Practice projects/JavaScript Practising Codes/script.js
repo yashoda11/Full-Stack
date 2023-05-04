@@ -830,6 +830,153 @@ if (age >= 18) {
 document.getElementById("js").style.fontSize = "40px";
 document.getElementById("js").style.fontStyle = "italic";
 
+// Assigning present time to now variable
+const now = new Date();        // Using Date object
+
+// 1. What is the year today?
+console.log(now.getFullYear());
+
+// 2. What is the month today as a number?
+console.log(now.getMonth());
+
+// 3. What is the date today?
+console.log(now.toString());
+
+// 4. What is the day today as a number?
+console.log(now.getDay());
+
+// 5. What is the hours now?
+console.log(now.getHours());
+
+// 6. What is the minutes now?
+console.log(now.getMinutes());
+
+// 7. Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+// set the time
+let past = new Date('1970-01-01');
+
+// assigning present time to present variable
+let present = new Date();
+
+let elapsed = (present - past);
+
+// by dividing by 1000 we will get the time in seconds
+console.log(`The numbers of seconds elapsed from January 1, 1970 to now is: ${elapsed/1000}seconds`);
+
+// 10. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+//     - 4 > 3
+//     - 4 >= 3
+//     - 4 < 3
+//     - 4 <= 3
+//     - 4 == 4
+//     - 4 === 4
+//     - 4 != 4
+//     - 4 !== 4
+//     - 4 != '4'
+//     - 4 == '4'
+//     - 4 === '4'
+//     - Find the length of python and jargon and make a falsy comparison statement.
+
+// 1. 4 > 3 = True
+    console.log(4 > 3);
+
+// 2. 4 >= 3 = True
+    console.log(4 >= 3);
+
+// 3. 4 < 3 = False
+    console.log(4 < 3);    
+
+// 4. 4 <= 3 = False
+    console.log(4 <= 3);
+
+// 5. 4 == 4 = True
+    console.log(4 == 4);
+
+// 6. 4 === 4 --> True
+    console.log(4 === 4);
+
+// 7. 4 != 4 --> False
+        console.log(4 != 4);
+
+// 8. 4 !== 4 --> Fasle
+    console.log( 4 !== 4 );
+    
+// 9. 4 != '4' -->False
+    console.log(4 != '4');
+
+// 10. 4 == '4'  -->True
+    console.log(4 == '4');
+
+// 11. 4 === '4'  -->False
+console.log(4 === '4');
+
+// 12. Find the length of python and jargon and make a falsy comparison statement.
+
+let str1 = "python";
+let str2 = "jargon";
+const len1 = str1.length;
+const len2 = str2.length;
+console.log(`
+The Length of python is: ${len1}
+The Length of jargon is: ${len2}`
+);
+if (len1 == len1+len2) {
+    console.log(`The length of the both strings ${str1} and ${str2} are same which is ${len1}`);
+} else {
+    console.log(`The comparision is False. Hence executes a Fasly Statement.`);
+}
+
+//13. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+
+let age = prompt("Enter your age");
+if (age >= 18) {
+    document.getElementById("js").innerText = "You are old enough to drive";
+    document.getElementById("js").style.color = "Green";
+
+} else {
+    document.getElementById("js").innerText = "You are young. Hence, you are not allowed to to drive";
+    document.getElementById("js").style.color = "Red";
+
+}
+document.getElementById("js").style.fontSize = "40px";
+document.getElementById("js").style.fontStyle = "italic";
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13-Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Checking the user allowed to drive or not based on his age <br> with prompt() Method</h2>
+    <p id="js"></p>
+    <script src="./age.js"></script>
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 1440px;
+    background-color: azure;
+    font-size: 30px;
+}
+h2{
+    color:#be2edd;
+    text-align: center;
+}
+p{
+    margin-top: 150px;
+}
+
 
 
 
