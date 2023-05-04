@@ -979,9 +979,189 @@ p{
 
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14 Question</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Checking a gievn number is even or odd <br> with prompt() Method</h2>
+    <h3>Even numbers are divisible by 2 and the remainder is zero</h3>
+    <p id="js"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
+// 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
+
+let number = prompt("Enter a Number");
+if (number%2==0) {
+    document.getElementById("js").innerText = "The given is an Even Number";
+    document.getElementById("js").style.color = "#be2edd";
+
+} else {
+    document.getElementById("js").innerText = "The given is an Odd Number";
+    document.getElementById("js").style.color = "#e056fd";
+}
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #f6e58d;
+}
+h2{
+    color: #6ab04c;
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    color: #f0932b;
+    font-size: 40px;
+}
+p{
+    font-size: 40px;
+    margin-top: 200px;
+}
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Question - Grades of a Student</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Grades of Students</h1>
+    <p id="grades"></p>
+    <script src="./script.js"></script>
+</body>
+</html>
+
+// 15. Write a program which can give grades to students according to theirs scores:
+//     - 80-100, A
+//     - 70-89, B
+//     - 60-69, C
+//     - 50-59, D
+//     - 0-49, F
+
+let score = prompt("Enter Obtained Score");
+if ((80<=score)&&(score<=100)){
+    document.getElementById("grades").innerText = "The student secured A Grade.";
+    document.getElementById("grades").style.color = "#be2edd";
+
+} else if((70<=score)&&(score<=79)){
+    document.getElementById("grades").innerText = "The student secured B Grade.";
+    document.getElementById("grades").style.color = "#be2edd";
+}
+else if((60<=score)&&(score<=69)){
+    document.getElementById("grades").innerText = "The student secured C Grade.";
+    document.getElementById("grades").style.color = "#be2edd";
+
+}
+else if((50<=score)&&(score<=59)){
+    document.getElementById("grades").innerText = "The student secured D Grade.";
+    document.getElementById("grades").style.color = "#be2edd";
+
+}
+else if((0<=score)&&(score<=49)){
+    document.getElementById("grades").innerText = "The student secured F Grade.";
+    document.getElementById("grades").style.color = "#eb4d4b";
+}
+else{
+    document.getElementById("grades").innerText = "Please try again later.";
+    document.getElementById("grades").style.color = "#eb4d4b";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #dff9fb;
+}
+h1{
+    color: #22a6b3;
+    font-size: 50px;
+    margin-top: 200px;
+}
+p{
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+// 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+//     - September, October or November, the season is Autumn.
+//     - December, January or February, the season is Winter.
+//     - March, April or May, the season is Spring
+//     - June, July or August, the season is Summer
+
+let season = prompt("Enter Name of a Month");
+if((season=="September")||(season=="October")||(season=="November")){
+    document.getElementById("season").innerText = "The Entered Month is Autumn Season.";
+}
+else if((season=="December")||(season=="January")||(season=="February")){
+    document.getElementById("season").innerText = "The Entered Month is Winter Season.";
+}
+else if((season=="March")||(season=="April")||(season=="May")){
+    document.getElementById("season").innerText = "The Entered Month is Spring Season.";
+}
+else if ((season=="June")||(season=="July")||(season=="August")) {
+    document.getElementById("season").innerText = "The Entered Month is Summer Season.";  
+} 
+else {
+    document.getElementById("season").innerText = "Please Enter the Valid Month Name. (Note: The name of the month first letter should be capital letter)";
+    document.getElementById("season").style.color = "#eb4d4b";
+}
+
+// 17. Write a program which tells the number of days in a month.
+
+let month = prompt("Enter a Month:");
+
+if((month=="January")||(month=="March")||(month=="May")||(month=="July")||(month=="August")||(month=="October")||(month=="December")){
+    document.getElementById("month").innerText = "The Number of Days in a "+ month + " are 31 Days";
+}
+else if ((month=="April")||(month=="June")||(month=="September")||(month=="November")) {
+    document.getElementById("month").innerText = "The Number of Days in a "+ month + " are 30 Days";
+}
+else if(month=="February"){
+    document.getElementById("month").innerText = "The Number of Days in a February are 28 Days";
+}
+else{
+    document.getElementById("month").innerText = "Please Enter the Valid Month Name. (Note: The name of the month first letter should be capital letter";
+    document.getElementById("month").style.color = "#eb4d4b";
+}
+
+// 18. Write a program which tells the number of days in a month, now consider leap year.
+
+let month = prompt("Enter a Month");
+
+if((month=="January")||(month=="March")||(month=="May")||(month=="July")||(month=="August")||(month=="October")||(month=="December")){
+    document.getElementById("month").innerText = "The Number of days in a "+ month + " are 31 Days";
+}
+else if ((month=="April")||(month=="June")||(month=="September")||(month=="November")) {
+    document.getElementById("month").innerText = "The Number of days in a "+ month + " are 30 Days";
+}
+else if(month=="February"){
+    document.getElementById("month").innerText = "The Number of days in a February are 29 Days";
+}
+else{
+    document.getElementById("month").innerText = "Please Enter the Valid Month Name. (Note: The name of the month first letter should be capital letter";
+    document.getElementById("month").style.color = "#eb4d4b";
+}
 
 
 
