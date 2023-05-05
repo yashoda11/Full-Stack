@@ -1195,3 +1195,5 @@ let webTechnologyNames = ["HTML", "CSS", "JavaScript", "ReactJS", "MangoDB", "PH
 
 // exporting variables and function
 export { webTechnologyNames };
+
+
