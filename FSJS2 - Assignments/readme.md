@@ -35,7 +35,7 @@
 
 3. Projects - 3
 
-    - [Project 3 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/PROJECT%20-%203)
+    - [Project 3 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects%20Assignment/PROJECT%20-%203)
 
 4. Projects - 4 - SEO MASTER
 
