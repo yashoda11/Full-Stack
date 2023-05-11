@@ -2,7 +2,8 @@
 
 1. Projects - 1
 
-    - [Projects 1 Code Files.]
+    - [Project 1 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects%20Assignment/PROJECT%20-%201)
+    
 2. Projects - 2
 
     - [Projects 2 Code Files.]
