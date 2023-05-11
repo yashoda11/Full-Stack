@@ -31,7 +31,7 @@
 
 2. Projects - 2
 
-    - [Project 2 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects/PROJECT%20-%202)
+    - [Project 2 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects%20Assignment/PROJECT%20-%202)
 
 3. Projects - 3
 
