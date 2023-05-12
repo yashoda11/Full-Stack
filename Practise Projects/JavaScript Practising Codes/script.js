@@ -1423,3 +1423,130 @@ console.log(j);
 count=0
 }
 
+// 28. Write a program to print the given patterns using the loops-
+// 	a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+// 	   *
+// 	   **
+// 	   ***
+	
+// 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+// 	   ***
+// 	   ***
+// 	   ***
+
+// 	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	     *
+// 	    ***
+//     *****
+
+
+// a. Print a triangle pattern, if the given input is 3 then the pattern should be similar to the given output
+// 	   *
+// 	   **
+// 	   ***
+
+let pattern1 = 3;
+let string1 = "";
+for (let i = 1; i <= pattern1; i++) {
+  for (let j = 0; j < i; j++) {
+    string1 += "*";
+  }
+  string1 += "\n";
+}
+console.log(`The Triangle Pattern is:\n${string1}`);
+
+
+// 	b. Print a square pattern, if the input is 3 then the output should be similar to the given output
+// 	   ***
+// 	   ***
+// 	   ***
+
+let pattern2 = 3; // row or column count
+// defining an empty string
+let string2 = "";
+
+for(let i = 0; i < pattern2; i++) { // external loop
+  for(let j = 0; j < pattern2; j++) { // internal loop
+    string2 += "*";
+  }
+  // newline after each row
+  string2 += "\n";
+}
+// printing the string
+console.log(`The Square Pattern is:\n${string2}`);
+
+
+// 	c. Print a pyramid pattern, if the input is 3 then the output should be similar to the given output
+// 	     *
+// 	    ***
+//     *****
+
+let pattern3 = 3;
+let string3 = "";
+// External loop
+for (let i = 1; i <= pattern3; i++) {
+  // printing spaces
+  for (let j = 1; j <= pattern3 - i; j++) {
+    string3 += " ";
+  }
+  // printing star
+  for (let k = 0; k < 2 * i - 1; k++) {
+    string3 += "*";
+  }
+  string3 += "\n";
+}
+console.log(`The Pyramid Pattern is:\n${string3}`);
+
+
+// 29. Write a javascript program which takes the input of filename as string and prints the extension of the file in the console.
+
+function getFileExtension(filename){
+
+    // get file extension
+    const extension = filename.split('.').pop();
+    return extension;
+}
+
+// passing the filename
+const result1 = getFileExtension('script.js');
+console.log(`The filename is: "script.js" and its extension is: ${result1}`);
+
+const result2 = getFileExtension('document.txt');
+console.log(`The filename is: "document.txt" and its extension is: ${result2}`);
+
+const result3 = getFileExtension('index.html');
+console.log(`The filename is: "index.html" and its extension is: ${result3}`);
+
+const result4 = getFileExtension('style.css');
+console.log(`The filename is: "style.css" and its extension is: ${result4}`);
+
+// 30. Create a simple calculator program in JavaScript which can perform the addition, substraction, multiplication and division on given numbers.
+
+let number1 = parseFloat(prompt("Enter Number1"));
+let number2 = parseFloat(prompt("Enter Number2"));
+let operator = prompt("Enter operator ( either +, -, * or / ): ");
+let result;
+switch (operator) {
+    case "+":
+        result = number1 + number2;
+        document.getElementById("cal").innerText = `The Addition of ${number1} and ${number2} is: ${result}.`;
+        break;
+    case "-":
+        result = number1 - number2;
+        document.getElementById("cal").innerText = `The Subtraction of ${number1} and ${number2} is: ${result}.`;
+        break;
+    case "*":
+        result = number1 * number2;
+        document.getElementById("cal").innerText = `The Multiplication of ${number1} and ${number2} is: ${result}.`;
+        break;
+    case "/":
+        result = number1 / number2;
+        document.getElementById("cal").innerText = `The Division of ${number1} and ${number2} is: ${result}.`;
+        break;
+
+    default:
+        document.getElementById("cal").innerText = "Invalid Operator. \n Try Again.";
+        document.getElementById("cal").style.color = "red";
+        break;
+}
+
