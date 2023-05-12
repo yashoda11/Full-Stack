@@ -1298,4 +1298,128 @@ let value2 = (maximumValue-average);
 console.log(`The Comparision of ${value1} and ${value2} is: ${Math.abs(value1-value2)}.`);
 
 
+// 23. Write a program to check that the number given by the user is a prime number or not.
+
+// take input from the user
+const number = parseInt(prompt("Enter a Positive number: "));
+let isPrime = true;
+
+// check if number is equal to 1
+if (number === 1) {
+    document.getElementById("prime").innerText = "1 is neither prime nor composite number.";
+}
+
+// check if number is greater than 1
+else if (number > 1) {
+
+    // looping through 2 to number-1
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime) {
+        document.getElementById("prime").innerText = `The Entered Number ${number} is a Prime Number`;
+    } else {
+        document.getElementById("prime").innerText = `The Entered Number ${number} is not a Prime Number`;
+    }
+}
+// check if number is less than 1
+else {
+    document.getElementById("prime").innerText = `The Entered Number ${number} is a not Prime Number \n Try Again`;
+}
+
+// 24. Write a program to create two array "even" and "odd" having even and odd number between the 0 to 100 (0 and 100 included).
+
+let arrayOfEven = [];
+let arrayOfOdd = [];
+
+for (let i=0; i<=100; i++){
+    if(i%2 == 0){
+        arrayOfEven.push(i);
+    }
+    else{
+        arrayOfOdd.push(i);
+    }
+}
+console.log(`The Array consists of Even Numbers is:`);
+console.log(arrayOfEven);
+console.log(`The Array consists of Odd Numbers is:`);
+console.log(arrayOfOdd);
+
+// 25. Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obese based the information given below.
+//     - The same groups apply to both men and women.
+//     - Underweight: BMI is less than 18.5
+//     - Normal weight: BMI is 18.5 to 24.9
+//     - Overweight: BMI is 25 to 29.9
+//     - Obese: BMI is 30 or more
+
+
+let age = 28;
+let weight = 100;
+let height = 170/100; 
+function calculatesBMI(){
+    let bmi = weight/(height*height);
+    if (age>=20)
+    {
+        if (bmi<18.5){
+            console.log(`Your age is: ${age} and your BMI is: ${bmi}.\nHence, You are Underweight.`);
+        }
+        else if ((bmi>18.5)&&(bmi<24.9)) {
+            console.log(`Your age is: ${age} and your BMI is: ${bmi}.\nHence, You are Normal Weight.`);
+        }
+        else if ((bmi>25)&&(bmi<29.9)) {
+            console.log(`Your age is: ${age} and your BMI is: ${bmi}.\nHence, You are Overweight.`);
+        }
+        else if(bmi>=30){
+            console.log(`Your age is: ${age} and your BMI is: ${bmi}.\nHence, You are Obese.`);
+        }
+    }
+    else{
+    console.log("Your age is not enough to calculates your the Body mass index(BMI).")
+    }
+}
+calculatesBMI();
+// // 26. Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
+// // 	If the number given by the user is 2 then the output should look like this-
+// // 	2 * 1 = 2
+// // 	2 * 2 = 4
+// // 	2 * 3 = 6 and so on till 2 * 10 = 20.
+
+
+// take input from the user
+const number = parseInt(prompt('Enter a number: '));
+
+//creating a multiplication table
+document.getElementById("tab").innerText = `The Multiplication Table for the given number ${number} is:`;
+document.getElementById("tab").style.color = "#ff3838";
+for(let i = 1; i <= 10; i++) {
+
+    // multiply i with number
+    const result = i * number;
+    let x = document.querySelector("#table").innerText;
+    x = x + `${number} * ${i} = ${result}\n`;
+    document.getElementById("table").innerText = `${x}`;
+    document.getElementById("table").style.paddingLeft = "100px";
+
+}
+
+
+// 27. Write a program to print all the prime number between 0 to 100 (0 and 100 included).
+
+let count=0
+let i,j 
+console.log(`The Prime Numbers form 0 to 100 are:`);
+for(j=2;j<=100;j++)
+{
+for( i=1;i<=j;i++)
+{
+  if(j%i==0)
+  count++
+}
+if(count==2)
+console.log(j);
+count=0
+}
 
