@@ -1196,4 +1196,106 @@ let webTechnologyNames = ["HTML", "CSS", "JavaScript", "ReactJS", "MangoDB", "PH
 // exporting variables and function
 export { webTechnologyNames };
 
+// 20. In the following shopping cart add, remove, edit items
+//     => const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey']
+//     - add 'Meat' in the beginning of your shopping cart if it has not been already added
+//     - add Sugar at the end of your shopping cart if it has not been already added
+//     - remove 'Honey'
+//     - modify Tea to 'Green Tea'
+
+
+const shoppingCart = ['Milk', 'Coffee', 'Tea', 'Honey'];
+console.log(shoppingCart);
+
+// add 'Meat' in the beginning of your shopping cart if it has not been already added.
+shoppingCart.unshift("Meat");
+console.log(shoppingCart);
+
+// add Sugar at the end of your shopping cart if it has not been already added.
+shoppingCart.push("Sugar");
+console.log(shoppingCart);
+
+// remove 'Honey'.
+shoppingCart.splice(4,1);
+console.log(shoppingCart);
+
+// modify Tea to 'Green Tea'.
+shoppingCart[3]="Green Tea";
+console.log(shoppingCart);
+
+// 21. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+
+
+var countryNames = ["India", "U.S.A", "Peru", "Alaska", "Italy", "Oman", "Panama"];
+var iscountryNamesIncludes = countryNames.includes("Ethiopia");
+if(iscountryNamesIncludes)
+{
+    console.log(`The Ethiopia Country exists in the given array of Countries List.`);
+}
+else{
+    console.log("The Country Name Ethiopia does not exists in the given array");
+    countryNames.push("Ethiopia");
+    console.log(`After adding of Ethiopia to the countries list,\nThe New Countries List is: \n${countryNames}`);
+
+}
+
+// 21. In countries array check if 'Ethiopia' exists in the array if it exists print 'ETHIOPIA'. If it does not exist add to the countries list.
+
+
+var countryNames = ["India", "U.S.A", "Peru", "Alaska", "Italy", "Oman", "Panama", "Ethiopia"];
+var result = countryNames.filter((country) => (country==="Ethiopia"));
+console.log(countryNames);
+let upper = [];
+for (const letter of result){
+    upper.push(letter.toUpperCase());
+}
+console.log(`The required Country Name exists in the given array that is ${upper}.`);
+
+// 22. The following is an array of 10 students ages:
+//     => const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+//     - Sort the array and find the min and max age
+//     - Find the median age(one middle item or two middle items divided by two)
+//     - Find the average age(all items divided by number of items)
+//     - Find the range of the ages(max minus min)
+//     - Compare the value of (min - average) and (max - average), use abs() method
+
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+
+// Sort the array and find the min and max age
+console.log(ages.sort());
+let minimumValue = Math.min(...ages);
+let maximumValue = Math.max(...ages);
+console.log(`The Student's Minimum age is: ${minimumValue}.`);
+console.log(`The Student's Maximum age is: ${maximumValue}.`);
+
+// Find the median age(one middle item or two middle items divided by two).
+let median;
+if(ages.length%2 != 0){
+    let middleIndex = Math.floor(ages.length/2)
+    median = ages[middleIndex]
+}else{
+    let middleIndex = Math.floor(ages.length/2)
+    median = (ages[middleIndex] + ages[middleIndex - 1])/2;
+}
+console.log(`The Median of given student's age (${ages}) is: ${median}.`)
+
+// Find the average age(all items divided by number of items).
+let average;
+sum = 0;
+for( let number of ages){
+    sum += number;
+}
+average = sum/ages.length;
+console.log(`The Average of student's age is: ${average}.`);
+
+// Find the range of the ages(max minus min).
+let range = (maximumValue - minimumValue);
+console.log(`The Range of the given student's age is: ${range}.`);
+
+// Compare the value of (min - average) and (max - average), use abs() method.
+let value1 = (minimumValue-average);
+let value2 = (maximumValue-average);
+console.log(`The Comparision of ${value1} and ${value2} is: ${Math.abs(value1-value2)}.`);
+
+
 
