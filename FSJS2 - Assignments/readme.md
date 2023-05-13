@@ -73,8 +73,10 @@
 
     - [Project 12 Code Files.](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/HTML%20and%20CSS%20Projects%20Assignment/Project%2012%20-%20Data%20Analytics%20Landing%20Page)
 
+
 # `Java Script Projects`
-[Java Script Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Java%20Script%20Files)
+
+[Java Script Files](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Java%20Script%20Assignment%2030-Questions)
 
 
 
