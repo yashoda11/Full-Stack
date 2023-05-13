@@ -129,11 +129,185 @@ let getRole = getUserRole("sai","ad");
 console.log(getRole);
 
 
+Project 1
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LearnCodeOnline.in</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        height="100px"
+        src="https://learnyst.s3.amazonaws.com/assets/schools/2410/resources/images/Group_2_4y5b8p.png"
+        alt=""
+      />
+      <h1 class="counter">1000</h1>
+      <p class="followers">Followers</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+var counter = document.querySelector(".counter");
+var followers = document.querySelector(".followers");
+
+let count = 1;
+setInterval( () => {
+    if( count<1000 ){
+        count++;
+        counter.innerText = count;
+    }
+}, 1
+)
+
+setTimeout ( () => {
+    followers.innerText = "Follwers on Instagram"
+}, 5800
+
+)
+body {
+  background: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 44px;
+  text-align: center;
+  color: aliceblue;
+}
+.description {
+  transition: 0.9s ease-in-out;
+}
+
+Project 2
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>LearnCodeOnline</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="color-hover">
+      <div class="color red"></div>
+      <div class="color cyan"></div>
+      <div class="color violet"></div>
+      <div class="color orange"></div>
+      <div class="color pink"></div>
+    </div>
+    <div class="center"></div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
+
+const red = document.querySelector(".red");
+const cyan = document.querySelector(".cyan");
+const violet = document.querySelector(".violet");
+const orange = document.querySelector(".orange");
+const pink = document.querySelector(".pink");
+
+const center = document.querySelector(".center");
+
+// console.log(window.getComputedStyle(red).backgroundColor);
+
+const getBGColor = (selectedElement) => {
+  return window.getComputedStyle(selectedElement).backgroundColor;
+};
+
+// var color = getBGColor(pink);
+
+// pink.addEventListener("mouseenter", () => {
+//   center.style.background = color;
+// });
+
+const magicColorChanger = (element, color) => {
+  return element.addEventListener("click", () => {
+    center.style.background = color;
+  });
+};
+
+magicColorChanger(red, getBGColor(red));
+magicColorChanger(cyan, getBGColor(cyan));
+magicColorChanger(violet, getBGColor(violet));
+magicColorChanger(orange, getBGColor(orange));
+magicColorChanger(pink, getBGColor(pink));
 
 
 
 
 
+
+
+
+body {
+  background: rgb(66, 66, 66);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.red {
+  background: #e44236;
+  margin-right: 5px;
+}
+.cyan {
+  background: #25ccf7;
+  margin-right: 5px;
+}
+.violet {
+  background: #8b78e6;
+  margin-right: 5px;
+}
+.orange {
+  background: #ea7773;
+  margin-right: 5px;
+}
+.pink {
+  background: #bb2cd9;
+}
+
+.center {
+  min-width: 400px;
+  height: 400px;
+  background: rgb(66, 66, 66);
+  /* border-radius: 100%; */
+  transition: 0.2s ease-in-out all;
+}
+.color-hover {
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.text {
+  padding: 10px;
+  color: #ffffff;
+}
+.color {
+  width: 120px;
+  height: 30px;
+  border-radius: 5%;
+  margin-bottom: 30px;
+}
+.color:hover {
+  cursor: pointer;
+}
+.color:last-child {
+  margin-bottom: 0;
+}
 
 
 
