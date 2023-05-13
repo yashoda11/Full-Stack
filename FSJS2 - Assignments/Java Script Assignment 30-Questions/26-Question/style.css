@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 1440px;
+    background-color: #ffcccc;
+    color: #000;
+}
+h1{
+    margin-top: 140px;
+    color: #c56cf0;
+    font-size: 60px;
+}
+div{
+    margin-top: 80px;
+    color: #dd1abc;
+    font-size: 40px;
+}

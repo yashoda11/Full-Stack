@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    max-width: 1440px;
+    background-color: azure;
+    font-size: 30px;
+}
+h2{
+    color:#be2edd;
+    text-align: center;
+    margin-top: 150px;
+}
+p{
+    margin-top: 150px;
+}

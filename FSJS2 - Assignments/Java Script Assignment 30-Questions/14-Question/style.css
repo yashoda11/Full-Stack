@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #f6e58d;
+}
+h2{
+    color: #6ab04c;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+h3{
+    color: #f0932b;
+    font-size: 40px;
+    margin-top: 50px;
+}
+p{
+    font-size: 40px;
+    margin-top: 100px;
+}
