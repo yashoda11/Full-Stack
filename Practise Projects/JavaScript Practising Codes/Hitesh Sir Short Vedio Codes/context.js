@@ -417,7 +417,52 @@ for ( const n in symbols)
 // console.log(symbols[n]);
 console.log( `The Key is: ${n} and its Value is: ${symbols[n]}.`);
 
+var user = {
+    fName: "hit",
+    lName: "chou",
+    loginCount: 34,
+    role: "Admin",
+    facebookSignedSignedIn: true
+};
+console.log(user.fName);
+console.log(user["fName"]);
+user.loginCount = 44;
+console.log(user.loginCount);
+console.table(user)
 
+
+// var name = "hitesh";
+// console.log("LINE 3" , name);
+// function sayName() {
+//     var name = "MR. H";
+//     console.log("LIne 6", name);
+// }
+// sayName();
+
+
+// var name = "hitesh";
+// console.log("LINE 3" , name);
+// function sayName() {
+//     // var name = "MR. H";
+//     console.log("LIne 6", name);
+// }
+// sayName();
+
+
+var name = "hitesh";
+console.log("LINE 3" , name);
+function sayName() {
+    // var name = "MR. H";
+    console.log("LIne 6", name);
+    sayNameTwo();
+    function sayNameTwo(){
+        var name = "Hai";
+        console.log("Line11", name)
+    }
+}
+sayName();
+
+console.log(this);
 
 
 
