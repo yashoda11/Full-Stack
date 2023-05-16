@@ -6,21 +6,11 @@ var User = function (firstName, courseCount) {
   };
 };
 
-// User.prototype.getFirstname = function () {
-//   console.log(`Your firstname is : ${this.firstName}`);
-// };
-
 var hitesh = new User("hitesh", 2);
-console.log(hitesh)
-// hitesh.getCourseCount();
-
-// if (hitesh.hasOwnProperty("firstName")) {
-//   hitesh.getFirstname();
-// }
-
-//console.log(hitesh);
+console.log(hitesh);
+hitesh.getCourseCount();
+console.log(hitesh.firstName);
 
 var sam = new User("Sam", 1);
+console.log(sam)
 sam.getCourseCount();
-sam.getFirstname();
-//console.log(sam);
