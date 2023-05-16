@@ -29,3 +29,7 @@ function sayName() {
     }
 }
 sayName();
+
+(function sayHello(){
+    conslole.log("Hai");
+})();
