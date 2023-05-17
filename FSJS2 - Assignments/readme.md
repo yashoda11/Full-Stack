@@ -78,5 +78,9 @@
 
 ## [Java Script 30-Questions](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Java%20Script%20Assignment%2030-Questions)
 
+# `Project VS Clone made with Taiwind`
+
+## Visual Studio CLONE](https://github.com/yashoda11/FullStackJavaScript-2.0/tree/main/FSJS2%20-%20Assignments/Project%20Tailwind%20-%20VS%20CLONE)
+
 
 
