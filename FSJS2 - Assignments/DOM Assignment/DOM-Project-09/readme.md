@@ -1,6 +1,7 @@
 # `Task - 01`
 
 ## The Text color of Title changed from "hsl(212, 21%, 14%);" to "B4161B".
+### **Before applying Code:**
 
 
 
