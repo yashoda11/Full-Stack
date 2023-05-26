@@ -5,7 +5,7 @@
 ### **Before applying Code:**
 ![](./ass9.1-before.png)
 
-### ****
+### **Task-01 - Solution: **
 ```
 let textColorChange = document.querySelector(".caption > .title");
     textColorChange.style.color = "#B4161B";
@@ -19,9 +19,13 @@ let textColorChange = document.querySelector(".caption > .title");
 
 ## The Background color of "add to cart" button changed to 
 - 1. When Mouse Enter - "#B4161B".
+
+![]()
+
 - 2. When Mouse Leaves - "hsl(157, 37%, 20%)".
 
 
+### **Task-02 - Solution : **
 ```
 let addToCartBackgroundColorChange = document.querySelector(".add-to-cart");
 
