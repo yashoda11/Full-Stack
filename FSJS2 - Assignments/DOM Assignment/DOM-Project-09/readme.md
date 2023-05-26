@@ -42,3 +42,5 @@ addToCartBackgroundColorChange.addEventListener("mouseenter", (e) => {
     addToCartBackgroundColorChange.style.backgroundColor = "hsl(157, 37%, 20%)";
   });
 ``` 
+
+**FSJS2.0**
