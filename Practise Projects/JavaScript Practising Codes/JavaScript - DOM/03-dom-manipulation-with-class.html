@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | JavaScript</title>
+</head>
+
+<body>
+
+    <h1>Hello World</h1>
+    <p class="fsjs" id="fsjs2"><span>Hello</span> World!</p>
+    <ul>
+        <li>one</li>
+        <li>Two</li>
+    </ul>
+
+    <ul>
+        <li class="tech">JavaScript</li>
+        <li class="tech">Nodejs</li>
+        <li class="tech">Reactjs</li>
+    </ul>
+
+    <script>
+
+        let val = document.getElementsByClassName("tech")
+        console.log(val)
+        console.log(val[0].innerText)
+        console.log(val[1].innerText)
+        console.log(val[2].innerText)
+        val[0].innerHTML = "Anurag"
+        val[1].innerHTML = "<h1>Anurag</h1>"
+        val[2].innerText = "<h1>Hello Hitesh Sir</h1>"
+
+    </script>
+
+</body>
+</html>
