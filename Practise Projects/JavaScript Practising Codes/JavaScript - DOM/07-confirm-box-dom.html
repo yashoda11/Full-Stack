@@ -1,0 +1,34 @@
+     
+    
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part 2</title>
+</head>
+
+<body>
+
+    <h1>DOM Manipulations - Confirm</h1>
+    <p id="js"></p>
+
+    <script>
+
+        //    CONFIRM BOX
+
+        let val = confirm("Are You Sure ?")
+        if (val) {
+            document.getElementById("js").innerHTML = "He/She Pressed OK"
+        }
+        else {
+            document.getElementById("js").innerHTML = "He/She Pressed Cancel"
+
+        }
+
+    </script>
+
+</body>
+</html>
