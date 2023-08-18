@@ -1,18 +1,23 @@
 # `Task - 01`
 
-## The Text color of Title changed from "hsl(212, 21%, 14%);" to "B4161B".
+## The Text Color of the Title changed from "hsl(212, 21%, 14%);" to "B4161B" :
 
-### **Before applying Code:**
-![](./ass9.1-before.png)
 
-### Task-01 - Solution:
+### Before applying Code :
+
+![Task-01-Input](./Task-01-Input.png)
+
+## Task-01 - Solution:
+
 ```
 let textColorChange = document.querySelector(".caption > .title");
-    textColorChange.style.color = "#B4161B";
+textColorChange.style.color = "#B4161B";
 ```
 
 ### After applying Code:
-![](./ass9.1-after.png)
+
+![Task-01-Output](./Task-01-Output.png)
+
 
 
 # `Task - 02`
@@ -22,15 +27,12 @@ let textColorChange = document.querySelector(".caption > .title");
 - When Mouse Enter - "#B4161B".
 - When Mouse Leaves - "hsl(157, 37%, 20%)".
 
-
 ### Before applying Code:
-![Image](./ass9.2-before.png)
+
+![Task-02-Input](./Task-02-Input.png)
 
 
-### After applying Code:
-![](./ass9.2-after.png)
-
-### Task-02 - Solution : 
+## Task-02 - Solution : 
 ```
 let addToCartBackgroundColorChange = document.querySelector(".add-to-cart");
 
@@ -43,4 +45,6 @@ addToCartBackgroundColorChange.addEventListener("mouseenter", (e) => {
   });
 ``` 
 
-**FSJS2.0**
+### After applying Code:
+
+![Task-02-Output](./Task-02-Output.png)

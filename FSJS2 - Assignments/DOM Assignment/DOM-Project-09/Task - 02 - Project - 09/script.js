@@ -1,10 +1,3 @@
-// Task - 01
-
-// The Text color of Title changed from "hsl(212, 21%, 14%);" to "B4161B".
-let textColorChange = document.querySelector(".caption > .title");
-textColorChange.style.color = "#B4161B";
-
-
 // Task - 02
 
 // The Background color of "add to cart" button changed to 
@@ -19,4 +12,3 @@ addToCartBackgroundColorChange.addEventListener("mouseenter", (e) => {
   addToCartBackgroundColorChange.addEventListener("mouseleave", (e) => {
     addToCartBackgroundColorChange.style.backgroundColor = "hsl(157, 37%, 20%)";
   });
-  
