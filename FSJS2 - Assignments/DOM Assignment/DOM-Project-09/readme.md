@@ -24,7 +24,7 @@ let textColorChange = document.querySelector(".caption > .title");
 
 
 ### Before applying Code:
-![](./ass9.2-before.png)
+![Image](./ass9.2-before.png)
 
 
 ### After applying Code:
