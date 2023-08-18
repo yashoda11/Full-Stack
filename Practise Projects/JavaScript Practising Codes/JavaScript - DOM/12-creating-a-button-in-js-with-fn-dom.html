@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Java Script Bootcampppp</h1>
+    <ul>
+    </ul>
+    <button onclick="maths()" id="fsjs2">SUBMIT</button>
+    <p id="js"></p>
+
+    <script>
+
+        for(let i=0; i<3; i++){
+        let pra = document.createElement("p")
+        pra.className = "FSJS";
+        pra.style.fontSize = "16px";
+        console.log(pra);
+        pra.textContent = i;
+        document.body.appendChild(pra)
+    }
+
+    function maths() {
+        let value = prompt("Solve this 50 - 30")
+
+        if (value == 20){
+            document.getElementById("js").innerText = "Success Redirect";
+            document.getElementById("fsjs2").style.backgroundColor = "Green"
+        }
+        else{
+            document.getElementById("js").innerText = "Fail Try Again"
+            document.getElementById("fsjs2").style.backgroundColor = "Red"
+        }
+    }
+
+    </script>
+</body>
+</html>
