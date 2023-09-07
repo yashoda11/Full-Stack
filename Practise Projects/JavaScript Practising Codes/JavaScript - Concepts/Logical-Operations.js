@@ -1,4 +1,6 @@
-//Logical Operators
+//Logical Operators 
+
+console.log("Logical Operators - OR Operator");
 
 let email = true;
 let facebook = false;
@@ -9,6 +11,9 @@ if(email||facebook||google){
 else{
     console.log("Login Fail");
 }
+
+
+console.log("Logical Operators - AND Operator");
 
 if(email&&facebook&&google){
     console.log("Login Success");
