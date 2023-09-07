@@ -564,20 +564,3 @@ console.log(this);
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

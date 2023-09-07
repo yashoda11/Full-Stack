@@ -517,3 +517,7 @@
 // rem(56, 14);
 // rem(26, 13);
 // rem(66, 22);
+
+// Naming Varialebs :
+
+//fullName is the correct format
