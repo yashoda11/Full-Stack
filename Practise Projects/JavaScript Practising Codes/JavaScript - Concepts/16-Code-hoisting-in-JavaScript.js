@@ -50,3 +50,19 @@ var bigTipper2 = function (a){
     console.log(bill + 115);
 }
 bigTipper2("200")
+
+// console.log(name);  --> Error
+
+console.log(name);   // undefined
+// var name = "sai"   
+
+console.log(name);
+var name = "hitesh";
+
+function sayName(){
+    var name = "Mr.H"
+    console.log(name);
+}
+sayName()
+
+console.log(name);
