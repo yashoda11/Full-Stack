@@ -9,8 +9,3 @@ console.log(displayDiscountPercentage + "% off");
 var result = listingPrice>sellingPrice;
 console.log(result);
 console.log(typeof result);
-
-console.log("Boolean Expression");
-var temp = 20;
-var result = temp<20;
-console.log(result);
