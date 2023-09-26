@@ -1,21 +1,14 @@
+// For Each Loop in JS :
 
-// }
+var i = 0;
+for(;;){
+    if(i>3) break;
+    console.log(i);
+    i++;
+}
 
-// const myStates = ["Rajasthan", "Delhi", 1947, "Assam", "TN", "Maha"];
-// myStates.forEach ((s) => (console.log(s)));
+// 
 
-// const names = ["youtube", "Amazon", "Hai", "Instagram", "facebook"];
-// console.log(names);
-// for (const n of names)
-// console.log(n);
+var myStates1 = ["Rajasthan", "Delhi", 1947, "Assam", "Tamil Nadu", "Maharashtra"];
 
-const symbols = {
-    yt: "youtube",
-    fb: "Facebook",
-    id: "Instagram",
-    lco: "Learn Code Online"
-};
-for ( const n in symbols)
-// console.log(n);
-// console.log(symbols[n]);
-console.log( `The Key is: ${n} and its Value is: ${symbols[n]}.`);
+myStates1.forEach((s) => console.log(s))
