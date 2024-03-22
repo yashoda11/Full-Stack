@@ -99,8 +99,7 @@ console.log(Math.random()*10);
 console.log(Math.random()*100);
 console.log(Math.round(Math.random()*50));
 console.log(Math.pow(2,2));
-console.log(Math.log(2));
-console.log(Math.sin(90));
+
 
 console.log(Math.floor(15.5));
 console.log(Math.ceil(15.5));
