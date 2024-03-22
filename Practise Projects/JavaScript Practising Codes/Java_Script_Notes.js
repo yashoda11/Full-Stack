@@ -96,7 +96,7 @@
 // 4.DECISIONS OR CONDITIONS(IF)
 
 // 1.if - else
-//2. swithc case
+//2. switch case
 //3. Ternary Operations
 
 //1. if else
