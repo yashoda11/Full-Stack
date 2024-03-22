@@ -81,3 +81,46 @@ switch(user){
     default:
          console.log("Simple user");
 }
+
+const PI = Math.PI;
+console.log(PI)
+
+console.log(Math.round(PI));
+console.log(Math.round(9.8));
+console.log(Math.round(9.5))
+console.log(Math.round(9.4));
+console.log(Math.round(12.1));
+console.log(Math.floor(12.1));
+console.log(Math.ceil(12.1));
+console.log(Math.min(1,2));
+console.log(Math.max(1,2,));
+console.log(Math.random());
+console.log(Math.random()*10);
+console.log(Math.random()*100);
+console.log(Math.round(Math.random()*50));
+console.log(Math.pow(2,2));
+console.log(Math.log(2));
+console.log(Math.sin(90));
+
+console.log(Math.floor(15.5));
+console.log(Math.ceil(15.5));
+
+// 3.141592653589793
+// 3
+// 10
+// 10
+// 9
+// 12
+// 12
+// 13
+// 1
+// 2
+// 0.7360371802186902
+// 5.538807905914358
+// 83.7801445213588
+// 37
+// 4
+// 0.6931471805599453
+// 0.8939966636005579
+// 15
+// 16
