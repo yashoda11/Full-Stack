@@ -123,3 +123,18 @@ console.log(Math.ceil(15.5));
 // 0.8939966636005579
 // 15
 // 16
+
+// . What are the differences between Java and JavaScript? 
+// JavaScript is a client-side scripting language and Java is object Oriented Programming language. Both of them are totally different from each other.
+
+// JavaScript: It is a light-weighted programming language (“scripting language”) for developing interactive web pages. It can insert dynamic text into the HTML elements. JavaScript is also known as the browser’s language.
+
+// Java: Java is one of the most popular programming languages. It is an object-oriented programming language and has a virtual machine platform that allows you to create compiled programs that run on nearly every platform. Java promised, “Write Once, Run Anywhere”.
+
+let val = confirm("Are You Sure ?")
+if (val) {
+    document.getElementById("js").innerText = "He/She Pressed OK"
+} else {
+    document.getElementById("js").innerText = "He/She Pressed Cancel"
+
+}
